@@ -17,6 +17,13 @@ nlu:
     - goodevening
     - good afternoon
 
+- intent: working
+  examples:
+    - are you working fine
+    - are you ok
+    - will you give correct output
+    - bhai pakka dhoka nahi dega na
+
 - intent: goodbye
   examples: |
     - good afternoon

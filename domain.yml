@@ -8,10 +8,14 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - working
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+
+  utter_working_confr:
+  - text: "Yes Bro All Good"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
