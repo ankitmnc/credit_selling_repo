@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - working
+  - info
 
 responses:
   utter_greet:
@@ -16,6 +17,9 @@ responses:
 
   utter_working_confr:
   - text: "Yes Bro All Good"
+
+  utter_give_info:
+  - text: "I am a Bot. \n I am from Punjab National Bank. \n I am Rasa Bot .\n My hobby is chatting din raat"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

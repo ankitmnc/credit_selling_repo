@@ -16,6 +16,15 @@ stories:
   - intent: working
   - action: utter_working_confr
 
+- story: intro_path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info
+  - action: utter_give_info
+  - intent: goodbye
+  - action: utter_goodbye
+
 - story: sad path 1
   steps:
   - intent: greet

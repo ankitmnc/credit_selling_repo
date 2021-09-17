@@ -18,11 +18,17 @@ nlu:
     - good afternoon
 
 - intent: working
-  examples:
+  examples: |
     - are you working fine
     - are you ok
     - will you give correct output
-    - bhai pakka dhoka nahi dega na
+
+- intent: info
+  examples: |
+    - Intro de apna
+    - Intro
+    - Intro de bosdike
+    
 
 - intent: goodbye
   examples: |
