@@ -59,6 +59,9 @@ responses:
   utter_greatsir:
   - text: "great sir/mam!!!\nour bank is well reputed for its concern towards customers and its much easy process of verification and validation of cards and other documents.\nsir/mam not just that our bank will provide you with some other benifits and gift voucher also .\nso sir/mam can I take your decision as positive for buying credit card?"
 
+  utter_kid:
+  - text: "Have a nice day sir, Bye!!!"
+
 
 session_config:
   session_expiration_time: 60

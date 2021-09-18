@@ -29,6 +29,7 @@ stories:
   - action: utter_extra
   - intent: affirm
   - action: utter_details
+  - action: utter_kid
 
 - story: context3 path
   steps:
@@ -44,6 +45,7 @@ stories:
   - action: utter_extra
   - intent: affirm
   - action: utter_details
+  - action: utter_kid
 
 - story: context4 path
   steps:
@@ -59,6 +61,7 @@ stories:
   - action: utter_greatsir 
   - intent: affirm
   - action: utter_details
+  - action: utter_kid
 
 - story: context5 path
   steps:
@@ -71,7 +74,8 @@ stories:
   - intent: affirm
   - action: utter_greatsir
   - intent: affirm
-  - action: utter_details  
+  - action: utter_details 
+  - action: utter_kid 
 
 - story: context6 path
   steps:
@@ -120,7 +124,7 @@ stories:
   - intent: deny
   - action: utter_nikalja  
 
-- story: context9 path
+- story: context0 path
   steps:
   - intent: greet
   - action: utter_greet
