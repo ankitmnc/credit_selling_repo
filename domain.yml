@@ -14,7 +14,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hi there! How are you?"
+  - text: "Hey There!  Welcome to CreditCard Support Assistance Desk.\nI am a Virtual Bot . I can help you with any query about Credit Card.\nHow are you sir?"
 
   utter_working_confr:
   - text: "Yes Bro All Good"

@@ -24,12 +24,6 @@ nlu:
     - will you give correct output
     - where are you working now
 
-- intent: info
-  examples: |
-    - Intro de apna
-    - Intro
-    - Intro de bosdike
-    - 12345
 
 - intent: goodbye
   examples: |
