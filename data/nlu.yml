@@ -22,6 +22,7 @@ nlu:
     - are you working fine
     - are you ok
     - will you give correct output
+    - where are you working now
 
 - intent: info
   examples: |
