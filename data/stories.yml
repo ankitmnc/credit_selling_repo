@@ -29,3 +29,106 @@ stories:
   - action: utter_extra
   - intent: affirm
   - action: utter_details
+
+- story: context3 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: affirm
+  - action: utter_ask_credit
+  - intent: deny
+  - action: utter_noworry  
+  - intent: affirm
+  - action: utter_extra
+  - intent: affirm
+  - action: utter_details
+
+- story: context4 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: deny
+  - action: utter_request
+  - intent: affirm
+  - action: utter_ask_credit
+  - intent: affirm
+  - action: utter_greatsir 
+  - intent: affirm
+  - action: utter_details
+
+- story: context5 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: affirm
+  - action: utter_ask_credit  
+  - intent: affirm
+  - action: utter_greatsir
+  - intent: affirm
+  - action: utter_details  
+
+- story: context6 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: deny
+  - action: utter_request
+  - intent: affirm
+  - action: utter_ask_credit
+  - intent: deny
+  - action: utter_noworry  
+  - intent: affirm
+  - action: utter_extra
+  - intent: deny
+  - action: utter_nikalja
+
+- story: context7 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: affirm
+  - action: utter_ask_credit
+  - intent: deny
+  - action: utter_noworry  
+  - intent: affirm
+  - action: utter_extra
+  - intent: deny
+  - action: utter_nikalja    
+
+- story: context8 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: deny
+  - action: utter_request
+  - intent: affirm
+  - action: utter_ask_credit
+  - intent: affirm
+  - action: utter_greatsir 
+  - intent: deny
+  - action: utter_nikalja  
+
+- story: context9 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: affirm
+  - action: utter_ask_credit  
+  - intent: affirm
+  - action: utter_greatsir
+  - intent: deny
+  - action: utter_nikalja   
