@@ -29,7 +29,7 @@ nlu:
     - Intro de apna
     - Intro
     - Intro de bosdike
-    
+    - 12345
 
 - intent: goodbye
   examples: |
@@ -53,6 +53,12 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - ok
+    - Ok
+    - I am interested
+    - proceed
+    - i am interested
+    - go on
 
 - intent: deny
   examples: |
@@ -63,6 +69,9 @@ nlu:
     - don't like that
     - no way
     - not really
+    - I am not interested
+    - not now
+    - not familiar
 
 - intent: mood_great
   examples: |
@@ -80,6 +89,9 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - I am fine
+    - i am fine
+    - good
 
 - intent: mood_unhappy
   examples: |

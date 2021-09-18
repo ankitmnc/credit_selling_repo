@@ -10,16 +10,17 @@ intents:
   - bot_challenge
   - working
   - info
+  - request
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hi there! How are you?"
 
   utter_working_confr:
   - text: "Yes Bro All Good"
 
   utter_give_info:
-  - text: "I am a Bot. \n I am from Punjab National Bank. \n I am Rasa Bot .\n My hobby is chatting din raat"
+  - text: "Let me welcome you sir to abc bank where I will help you in buying credit cards\n Sir are you interested in buying credit cards?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -36,6 +37,24 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_nikalja:
+  - text: "ok sir/mam then , thanks for your time.\n Have a nice day sir/mam!!!"
+
+  utter_request:
+  - text: "but sir/mam it will just take 2 minutes of your's to know about its intresting features that most of the people around you is availing now."
+
+  utter_ask_credit:
+  - text: "sir/mam are you familiar about credit cards?"
+
+  utter_noworry:
+  - text: "not to worry sir/mam I will help you out.\nsir/mam A credit card is an instrument to help you make instant credit based transactions.Unlike debit cards which are linked to your bank accounts and debit the corresponding amount for every transaction, credit cards offer you the flexibility to make transactions on credit independent of your account balance. These amounts however are repayable at the end of a pre-specified credit period, and each credit card involves a credit limit beyond which transactions cannot be made.\n: was that helpful?"
+
+  utter_extra:
+  - text: "not just that our bank will provide you with some other benifits and gift voucher also.\nso sir/mam can I take your decision as positive for buying credit card?"
+
+  utter_details:
+  - text: "now I will provide you with the details of our bank staff\nand he will reach you soon!!!\nName : qwerty\ndesignation : clerk\nphone number : 123456789"
 
 session_config:
   session_expiration_time: 60

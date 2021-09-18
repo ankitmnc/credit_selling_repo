@@ -2,45 +2,30 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: context1 path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
-  - action: utter_happy
-
-- story: working path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: working
-  - action: utter_working_confr
-
-- story: intro_path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: info
   - action: utter_give_info
-  - intent: goodbye
-  - action: utter_goodbye
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
   - intent: deny
-  - action: utter_goodbye
+  - action: utter_request
+  - intent: deny
+  - action: utter_nikalja
+
+- story: context2 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_give_info
+  - intent: deny
+  - action: utter_request
+  - intent: affirm
+  - action: utter_ask_credit
+  - intent: deny
+  - action: utter_noworry  
+  - intent: affirm
+  - action: utter_extra
+  - intent: affirm
+  - action: utter_details
